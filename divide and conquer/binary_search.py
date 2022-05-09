@@ -13,9 +13,9 @@ def binary_search(nums,target):
             l = mid+1
         else:
             h = mid -1
-    return -1
+    return l
 
-nums = [1,2,3,4,5,6]
-target = 34
+nums = [1,2,3,4,9]
+target = 6
 print(binary_search(nums,target))
 
