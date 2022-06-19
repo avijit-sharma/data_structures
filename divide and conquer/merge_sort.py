@@ -24,4 +24,5 @@ def mergesort(nums):
 num1 = [60,70,80,90]
 num2 = [1,2,3,4,5]
 num = merge(num1,num2)
+print(num)
 print(mergesort([5, -12, 2, 6, 1, 23, 7, 7, -12]))
